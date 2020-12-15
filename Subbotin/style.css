@@ -1,0 +1,28 @@
+html.body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(5, 22, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    border: 3px solid black;
+}
+
+.field__row {
+    display: flex;
+}
+
+.field__cell {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    color: aliceblue;
+    font-size: 24px;
+}
